@@ -1,0 +1,52 @@
+body{
+    font-family: Helvetica; /*Define a fonte ou famílias de fontes*/
+    text-align: center;/*Alinhamento horizontal, centralizando*/
+    color: #fff;/*Define a cor da fonte; não pega os links*/
+    background-color: #333;/*Define a cor de fundo da página*/
+    padding: 0%;/*Retirando todo o espaçamento interno*/
+    margin: 0%; /*Retirando todo o espaçamento externo*/
+}
+
+nav{
+    display: flex;/*Organiza um elemento/conteúdo ao lado do outro*/
+    justify-content: space-between;/*Iria distribuir um espaço entre eles, da direita à esquerda*/
+    padding: 20px; /*Define que haja um espaçamento interno de 20 pixels*/
+    border-bottom: 1px solid #666; /*Expessura da borda de 1 pixel, e define uma cor meio acinzentada*/
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+ul li{
+    margin-right: 12px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover/*hover condiz à seleção de mouse*/{
+    text-decoration: underline;/*Considerando a informação acima, o código faz com que o texto se torne sublinhado apenas ao ser selecionado*/
+}
+
+h1{
+    font-size: 32px;
+}
+
+img{
+    border: 3px solid rgb(49, 241, 248);
+}
+
+footer{
+    padding: 20px;
+    border-top: 1px solid #666;
+    margin-top: 40px;
+}
+
+footer p a{/*especifica que a devida formatação será aplicada somente ao a que está dentro do p que está dentro do footer*/
+    color:rgb(49, 241, 248);
+}
