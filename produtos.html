@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css"><!--Linka o HTML com o CSS-->
+    <link rel="stylesheet" href="assets/css/style.css"><!--Linka o HTML com o CSS em geral-->
+    <link rel="stylesheet" href="assets/css/produtos.css"><!--Linka também com o CSS dos produtos-->
+    <link rel="shortcut icon" href="assets/img/html.png">
     <title>Projeto 2 - HTML e CSS</title>
 </head>
 <body>
@@ -26,15 +28,28 @@
 
     </header>
     <section><!--Seletor de conteúdo // Conteúdo principal-->
-        <h1>Seja bem-vindo ao Projeto 2 - Fundamentos de HTML e CSS</h1>
-        <p>Este projeto tem como objetivo conhecer os comandos fundamentais de HTML e CSS</p>
+        <h1>Desenvolvimento Front-End</h1>
+        <div class="conteudo"><!--Quer dizer uma área do código feita para "organizar o código", é por aqui onde podemos repartir em blocos diferentes de código
+        com suas devidas formatações e ações-->
+            <div class="produtos"><!--Imagem 1-->
+                <img src="assets/img/logo.png" alt="">
+                <p><strong>HTML</strong> é uma linguagem de marcação utilizada na construção de páginas na Web.</p>
+            </div>
 
-        <!--Inserindo uma imagem local: 'src' representa o local da imagem e 'alt' é o título da imagem-->
-        <img src="assets/img/cidade.jpg" alt="Cidade à noite">
+            <div class="produtos"><!--Imagem 2-->
+                <img src="assets/img/css.png" alt="">
+                <p><strong>CSS</strong> é um mecanismo para adicionar estilos a uma página web.</p>
+            </div>
+
+            <div class="produtos"><!--Imagem 3-->
+                <img src="assets/img/js.png" alt="">
+                <p><strong>JavaScript</strong> é uma linguagem de programação interpretada estruturada, de script em alto nível.</p>
+            </div>
+        </div>
     </section>
     <footer><!--Rodapé-->
-        <p>&copy; Abrahão do Nascimento Guimarães - 2023</p>
-        <p><a href="#">Voltar para o início</a></p>
+        <p>&copy; Abrahão do Nascimento Guimarães</p>
+        <p><a href="index.html">Voltar para o início</a></p>
         
     </footer>
 </body>
